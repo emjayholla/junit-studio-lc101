@@ -69,5 +69,8 @@ public class BalancedBracketsTest {
         assertFalse(BalancedBrackets.hasBalancedBrackets("]"));
     }
 
-
+    @Test
+    public void nullString () {
+        assertFalse(BalancedBrackets.hasBalancedBrackets(null));
+    }
 }
